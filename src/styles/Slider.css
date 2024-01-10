@@ -1,0 +1,73 @@
+.banner-bg {
+  background-image: url(../assets/slider/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.banner-bg::before {
+  content: "";
+  position: absolute;
+  background-image: url(../assets/slider/banner-bg-items.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.slider img {
+  height: 270px;
+  width: auto;
+  max-width: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .slider img {
+    height: 400px;
+  }
+  .fs-55,
+  .slider h1 {
+    font-size: 55px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 30%;
+  }
+  .fs-55,
+  .slider h1 {
+    font-size: 48px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fs-55,
+  .slider h1 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .fs-55,
+  .slider h1 {
+    font-size: 30px !important;
+  }
+}
+
+.carousel-control-next svg,
+.carousel-control-prev svg {
+  fill: #2fb993;
+}
+.carousel-control-prev {
+  left: 0;
+}
+.carousel-control-next {
+  right: 0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 22px;
+}

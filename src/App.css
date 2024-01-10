@@ -1,0 +1,53 @@
+.nav-link {
+  cursor: pointer !important;
+}
+.cgreen {
+  color: #2fb993 !important;
+}
+.cgray {
+  color: #355979 !important;
+}
+.btnGreen {
+  background: #2fb993;
+  color: white;
+  font-size: 18px;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.btnGreen:hover {
+  background: #2fb993;
+  color: white;
+  font-size: 18px;
+  transform: translate(0, -4px) !important;
+  box-shadow: 0px 12px 7px -6px #00000040 !important;
+  transition: all 0.3s ease;
+}
+
+.word-space {
+  letter-spacing: 3px !important;
+}
+.lh {
+  line-height: 25px !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.message {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  z-index: 1000;
+  border: 0px;
+}
+.chat-icon {
+  background: #2fb993;
+  height: 60px;
+  width: 60px;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.badge {
+  top: 20%;
+}

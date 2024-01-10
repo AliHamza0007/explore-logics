@@ -1,0 +1,29 @@
+.contact {
+  background-image: url(../assets/contact-us-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+}
+input,
+select,
+textarea {
+  border: 1px solid #355979 !important;
+}
+
+.react-international-phone-input-container {
+  border: 1px solid #355979 !important;
+  border-radius: 5px;
+}
+.react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  height: 59px;
+  width: 80px;
+}
+.react-international-phone-input-container .react-international-phone-input {
+  height: 59px !important;
+  font-size: 16px !important;
+  width: 90%;
+  color: #355979 !important;
+  padding: 30px 10px;
+  border: 0 !important;
+}

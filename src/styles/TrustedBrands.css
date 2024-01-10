@@ -1,0 +1,26 @@
+.TrustedBrands .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.TrustedBrands .swiper-slide::before {
+  content: "";
+  border-right: 1px solid;
+  width: 1px;
+  min-height: 70px;
+  opacity: 0.25;
+}
+.TrustedBrands .swiper-slide img {
+  width: 70% !important;
+  filter: grayscale(100%);
+}
+.TrustedBrands .swiper-slide img:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 500px) {
+  .TrustedBrands .swiper-slide img {
+    width: 100% !important;
+  }
+}

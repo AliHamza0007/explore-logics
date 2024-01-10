@@ -1,0 +1,28 @@
+.servicebg {
+  background-image: url(../assets/service/cards-bg-icon.png);
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.service-section::before {
+  content: "";
+  position: absolute;
+  background-image: url(../assets/about/cards-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* background-position-y: bottom; */
+}
+
+.service-section .card > img {
+  height: 150px;
+}
+.service-section h5 {
+  color: #355979 !important;
+}

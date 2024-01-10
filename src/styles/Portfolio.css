@@ -1,0 +1,107 @@
+.portfolio {
+  background-image: url(../assets/portfolio/information-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.portfolio h2 {
+  color: #355979 !important;
+}
+
+.btn-outline-green {
+  color: #355979 !important;
+  border: 2px solid #2fb993 !important;
+  position: relative;
+  font-size: 15px !important;
+
+  transition: all 0.5s ease-out;
+}
+.btn-outline-green .fas {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  font-size: 18px !important;
+
+  transform: translateX(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.btn-outline-green:hover {
+  padding-right: 10% !important;
+  transition: all 0.5s ease-in;
+}
+.btn-outline-green:hover .fas {
+  left: 80%;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+.btnGo-Portfolio {
+  border-bottom: 2px solid #32b892 !important;
+  color: #5b748c !important;
+  padding: 5px 0px !important;
+  font-size: 14px !important;
+  transition: all 0.2s ease-out;
+}
+.btnGo-Portfolio .fas {
+  padding: 0px 10px !important;
+  font-size: 18px !important;
+  transition: all 0.2s ease-out;
+}
+.btnGo-Portfolio:hover {
+  padding-right: 15px !important;
+  transition: all 0.2s ease-in;
+}
+.btnGo-Portfolio:hover .fas {
+  padding: 0px 0px 0px 20px !important;
+  transition: all 0.2s ease-in;
+}
+.portfolio img {
+  width: 350px !important;
+  height: auto !important;
+  transition: all 0.2s ease-out;
+}
+.portfolio img:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in;
+}
+.testimonial {
+  background-image: url(../assets/portfolio/team-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonial .swiper-slide p {
+  color: #166185;
+  letter-spacing: 2px;
+}
+
+.testimonial .swiper-pagination-bullet {
+  opacity: 1;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 100% !important;
+  background-color: #636a6d;
+}
+
+.testimonial .swiper-pagination-bullet-active {
+  background: #2fb993 !important;
+  width: 50px !important;
+  height: 12px !important;
+  border-radius: 20px !important;
+}
+
+.testimonial .swiper-pagination {
+  text-align: start !important;
+  left: 20% !important;
+  opacity: 1;
+}
+@media screen and (min-width: 500px) {
+  .testimonial .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .testimonial .swiper-slide img {
+    width: 100px;
+    padding: 10px 25px;
+  }
+}

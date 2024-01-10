@@ -1,0 +1,112 @@
+.navbarBg {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+}
+.navbarFixed {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background: transparent;
+}
+.projects .navbarFixed {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background-color: white !important;
+}
+.navbarScroll {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: white !important;
+}
+
+.navbar .nav-item a:hover,
+.navbar .nav-item a.active {
+  border-color: #2fb993;
+  color: #2fb993;
+  cursor: pointer !important;
+  transition: all 0.5s ease;
+}
+
+.navbar .nav-item a {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  color: #2fb993;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 100ms ease;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+  transition: 1s;
+}
+button[aria-expanded="false"] .fa-close {
+  display: none;
+  transition: 1s;
+}
+@media screen and (min-width: 1440px) {
+  .navbar-brand {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .navbar-brand {
+    width: 60%;
+  }
+  .navbarFixed {
+    background-color: white !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .navbar .nav-item a:hover,
+  .navbar .nav-item a.active {
+    border-color: transparent !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand > img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    width: 70%;
+  }
+}
+.projectHome {
+  display: none;
+}
+.Home {
+  display: block;
+}
+.projectsPage .Home {
+  display: none;
+}
+.projectsPage .projectHome {
+  display: block;
+}
